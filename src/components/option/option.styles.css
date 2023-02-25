@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap');
+
 .option-container {
     display: flex;
     flex-direction: column;
@@ -8,6 +10,8 @@
   }
   
   .option-title {
+    font-family: 'Yantramanav', sans-serif;
+    color: rgb(224, 178, 247);
     font-size: 50px;
     margin-bottom: 80px;
   }
@@ -26,8 +30,9 @@
     width: 220px;
     height: 300px;
     padding: 20px;
+    border: rgb(153, 24, 222) solid 1px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -38,12 +43,11 @@
   }
   
   .option-card-title {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-family: 'Yantramanav', sans-serif;
+    color:rgb(224, 178, 247);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 70px;
   }
   
-  .option-card-description {
-    font-size: 16px;
-    text-align: center;
-  }
   

@@ -7,12 +7,10 @@ const Option = () => {
         <h1 className="option-title">select your perfect pc</h1>
         <div className="option-buttons">
           <div className="option-card">
-            <h2 className="option-card-title">Option 1</h2>
-            <p className="option-card-description">Description for Option 1</p>
+            <h2 className="option-card-title">Laptop</h2>
           </div>
           <div className="option-card">
-            <h2 className="option-card-title">Option 2</h2>
-            <p className="option-card-description">Description for Option 2</p>
+            <h2 className="option-card-title">Desktop</h2>
           </div>
         </div>
       </div>
