@@ -1,14 +1,23 @@
 import React from 'react';
 import Navbar from './components/navbar/navbar.component.jsx';
-import Header from './components/header/header.component.jsx';
+import Home from './components/home/home.component.jsx';
+import Option from './components/option/option.component.jsx';
 import "./App.css"
-import 'animate.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
-    <div>
-    <Navbar />
-    <Header />
+   <Router>
+    <div className='App'>
+        <Navbar />
+      <div className='content'>
+         <Routes>
+            <Route path='/' element={<Home />}/>
+            <Route path='/option' element={< Option />}/>
+         </Routes>
+      </div>
     </div>
+   </Router>
   );
 }
 
